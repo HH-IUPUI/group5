@@ -1,3 +1,14 @@
+        .imgk {
+	      float: left
+	      margin-top: 0px;
+	      margin-right: 10px;
+	      margin-bottom: 0px;
+	      margin-left: 0px;
+	      position: fixed; 
+	      top: 100px; 
+	      left: 100px;
+        }
+
         header {
             grid-area: header;
             background-color: #98B9F2;
