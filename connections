@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+
+<meta name="author" content="xxxxx">
+<meta name="description" content="xxxxxx">
+<meta name="keywords" content="xxxxxxx">
+
+<title>IUPUI-HH Sample</title>
+<link rel="stylesheet" type="text/css" href="styles/mystyles.css">
+
+</head>
+<body>
+
+<header>
+<h1>Communication in an International Classroom</h1>
+<p>Similarities amd Differences</p>
+</header>
+
+<hr>
+
+<nav><h2>Menu</h2>
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="connections.html">Our Connections</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="creators.html">Meet the Creators</a></li>
+      
+  </ul>
+</nav>
+<main>
+
+<h2>Politeness</h2>
+<p>
+  The definition of politeness is very different in American and Finnish culture. 
+  While it is polite to talk to and entertain people around you in the USA, 
+  that can be considered rude in Finland as you are expected to give the people around you their personal space. 
+</p>
+<p>
+  A shocking example of Finnish politeness is if for example when you see somebody trip and fall in public, 
+  you should not offer your help unless the person is in distress. 
+  It is best to ignore and not acknowledge the situation to spare the person of their embarrassment. 
+</p>
+<h2>Anecdotes</h2>
+<p>
+  Recently there was a Finnish newspaper article about a woman who likes to greet random strangers while walking outside. 
+  She wanted to see if this part of American culture could take hold in Finland. The reactions from strangers varied greatly. 
+  She reported that most people were taken aback by her greeting and many did not greet back or look her way. 
+</p>
+<p>
+  I have lived in my current apartment building for awhile now and I don't know who any of my neighbors are. 
+  I would not even recognize them on the street. Before I leave my apartments I listen if there are neighbors in the hallway. If so, I wait until they are gone before I leave the apartment. 
+  This is very common behavior here and I have heard of many people doing the same. 
+</p>
+
+<h2>Similarities</h2>
+<p>
+  American and Finnish culture are both western. 
+  So their way of thinking is not that different after all. 
+  Both countries are modern, both socially and technologically. 
+  Most Finnish people speak English very well so the language barrier is rarely the hurdle in communication between the two cultures. 
+</p>
+
+<h2>Pieces of the same pie</h2>
+<p>
+  But in the end, we are all just two pieces of the same pie. 
+  Or as this BuzzFeed quiz suggests, when it comes down to it, we are all just a different kinds of bread.
+</p>
+
+<p>The following will be formated in CSS and pictures of bread will be added later:</p>
+<section class="grid-container">
+  <div>Kat</div>
+  <div>Michelle</div>
+  <div>Mariia</div>
+  <div>Ville</div>
+  </section>
+  
+
+<p>
+
+</p>
+
+</main>
+
+<hr>
+
+<footer>
+<p>Footer goes here</p>
+</footer>
+
+</body>
+</html>
