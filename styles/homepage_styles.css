@@ -6,8 +6,6 @@
         nav {
             grid-area: nav;
             background-color: #151269;
-            color: white;
-            text-align: center;
             
         }
 
@@ -36,7 +34,7 @@
                 'nav nav footer footer footer footer';
             grid-gap: .5em;
 			
-			max-width: 62.5em; /* GIVE CONTAINER A WIDTH AND MARGINS IF YOU DO NOT WANT FULL SCREEN */
+			max-width: 62em; /* GIVE CONTAINER A WIDTH AND MARGINS IF YOU DO NOT WANT FULL SCREEN */
 			margin: auto;
         }
 
