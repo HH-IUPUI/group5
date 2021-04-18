@@ -57,11 +57,11 @@
 
 /* Put your link styles here and format this how you wish -- William */
 
-a:link {color: #cd853f; text-decoration: none;} 
+a:link {color: #FCFC0C; text-decoration: none;} 
 
 a:visited {color: #ccc;}
 
-a:hover {color: #FCFC0C;} 
+a:hover {color: #CD853F;} 
 
 a:active {color: #C0F0FC;} 
 
