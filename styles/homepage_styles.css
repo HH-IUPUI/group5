@@ -1,29 +1,35 @@
         header {
             grid-area: header;
             background-color: #98B9F2;
+			padding: 0 1em 0 1em; /* I gave each area some  padding left and right, bot 0 on top and bottom. Modify how you wish! -- William */
         }
 
         nav {
             grid-area: nav;
             background-color: #151269;
-	    text-align: center
-            
+				padding: 0 1em 0 1em;
         }
+		
+		nav.ul {
+			text-align: center;
+		}
 
         main {
             grid-area: main;
             background-color:#306BAC;
-            
+            padding: 0 1em 0 1em;
         }
 
         aside {
             grid-area: aside;
             background-color: #6F9CEB;
+			padding: 0 1em 0 1em;
         }
 
         footer {
             grid-area: footer;
             background-color: #98B9F2;
+			padding: 0 1em 0 1em;
         }
 
         .grid-container {
@@ -33,7 +39,7 @@
                 'nav nav main main main aside'
                 'nav nav main main main aside'
                 'nav nav footer footer footer footer';
-            grid-gap: .5em;
+            /* grid-gap: .5em; put this back if you want space between the areas --William */
 			
 			max-width: 62em; /* GIVE CONTAINER A WIDTH AND MARGINS IF YOU DO NOT WANT FULL SCREEN */
 			margin: auto;
@@ -44,6 +50,20 @@
             list-style-type: none;
             margin: inherit;
         }
+
+/* Put your link styles here and format this how you wish -- William */
+
+a:link {color: #cd853f; text-decoration: none;} 
+
+a:visited {color: #ccc;}
+
+a:hover {color: #FCFC0C;} 
+
+a:active {color: #C0F0FC;} 
+
+
+
+
 
 
         /*FIRST BREAK POINT === tablet */
