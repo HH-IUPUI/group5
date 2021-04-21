@@ -58,6 +58,8 @@
 
 /* Put your link styles here and format this how you wish -- William */
 
+a {color: #fcfcf6; text-decoration: none;}
+
 a:link {color: #FCFC0C; text-decoration: none;} 
 
 a:visited {color: #ccc;}
