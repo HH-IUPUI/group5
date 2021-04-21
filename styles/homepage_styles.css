@@ -116,5 +116,35 @@ a:active {color: #C0F0FC;}
             ul li {
                 display: inline-block;
             }
+	    
+	    nav ul {
+            display: none;
+            height: auto;
+            }
+
+           .menuIcon {
+           width: 35px;
+           height: 5px;
+           background-color: black;
+           margin: 6px 0;
+           }
+
+           nav a#pull {
+           display: block;
+           /*background-color: #c095ab;*/
+           width: 100%;
+           position: relative;
+           }
+
+           nav a#pull:after {
+           content: "";
+           /* background: url('mobile_nav.jpg') no-repeat; */
+           width: 30px;
+           height: 30px;
+           display: inline-block;
+           position: absolute;
+           right: 15px;
+           top: 10px;
+           }
 
         }
