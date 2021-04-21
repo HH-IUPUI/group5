@@ -18,6 +18,10 @@
 			text-align: center;
 		}
 
+		nav a#pull {
+    		display: none;
+		}
+
         main {
             grid-area: main;
             background-color: #98B9F2;
