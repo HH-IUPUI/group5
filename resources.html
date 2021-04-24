@@ -10,6 +10,9 @@
 <title>Intercultural Communication in a Global Classroom </title>
 
 <link rel="stylesheet" type="text/css" href="styles/homepage_styles.css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="scripts/sample.js"></script>
 
 </head>
 
@@ -21,14 +24,20 @@
 			<h1>Intercultural Communication in a Global Classroom</h1>
 		</header>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="connections.html">Connections</a></li>
-				<li><a href="resources.html">Resources</a></li>
-				<li><a href="creators.html">Creators</a></li>
-			</ul>
-		</nav>
+		<nav id="hamnav">
+      <!-- [THE HAMBURGER] free menu from https://code-boxx.com/ -->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+
+      <!-- [MENU ITEMS] -->
+      <div id="hamitems">
+		<a href="#"><b>Home</b></a>
+		<a href="connections.html">Connections</a>
+		<a href="resources.html">Resources</a>
+		<a href="creators.html">Creators</a>
+		<a href="projectPresentation.html">Presentation</a>
+      </div>
+	</nav>
 
 		<main>
 		<h2>Resources</h2>
@@ -91,30 +100,36 @@
                 <p>Invest time in building relationships and keep momentum going after the class ends. Spotlight new contacts by connecting through virtual professional network, LinkedIn. Check out our profiles on <a href="https://hh-iupui.github.io/group5/creators.html">Creators</a></p>
                 </aside>
 
-			<footer>
-				<h4>Thanks to our teachers Dr.William Helling (<a href="https://www.linkedin.com/in/whelling/" target="_blank">William's LinkedIn account</a>)
-					from <a href="https://www.iupui.edu/" target="_blank">IUPUI</a>
-					and Kasper Valtakari (<a href="https://www.linkedin.com/in/kassu/" target="_blank">Kasper's LinkedIn account</a>) 
-					from <a href="https://www.haaga-helia.fi/en" target="_blank">HHUAS</a>, 
-					as well as <a href="https://www.w3schools.com/js/default.asp" target="_blank">w3school</a></h4> <br />
+	<footer>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <script src="scripts/scrollDownUp.js"></script>
+                    
+            <h4>Thanks to our teachers Dr.William Helling (<a href="https://www.linkedin.com/in/whelling/" target="_blank" title="Go to William's LinkedIn account">William's LinkedIn account</a>)
+                from <a href="https://www.iupui.edu/" target="_blank" title="Go to IUPUI web page">IUPUI</a>
+                and Kasper Valtakari (<a href="https://www.linkedin.com/in/kassu/" target="_blank" title="Go to Kasper's LinkedIn account">Kasper's LinkedIn account</a>) 
+                from <a href="https://www.haaga-helia.fi/en" target="_blank" title="Go to Haaga-Helia UAS web page">HHUAS</a>, 
+                as well as <a href="https://www.w3schools.com/js/default.asp" target="_blank" title="Go to W3schhol web page">w3school</a></h4> <br />
 
-					<a href="https://validator.w3.org/check?uri=referer" target="_blank">
-						<img style="border:none;width:60px;height:31px;text-decoration:none;"
-							src="images/htmlValidator.png"
-							alt="Valid HTML"  /></a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank" title="Go to HTML validator">
+                <img style="border:none;width:60px;height:31px;text-decoration:none;"
+                    src="images/htmlValidator.png"
+                    alt="Valid HTML"  /></a>
 
-					<a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-						<img style="border:none;width:88px;height:31px;text-decoration:none;"
-							src="images/validCSS.png"
-							alt="Valid CSS" /></a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank" title="Go to Css validator">
+                <img style="border:none;width:88px;height:31px;text-decoration:none;"
+                     src="images/validCSS.png"
+                     alt="Valid CSS" /></a>
             
-					<a href="https://wave.webaim.org/" target="_blank">
-						<img style="border:none;width:88px;height:31px;text-decoration:none;"
-							src="images/waveWeb.png"
-							alt="WAVE Web Accessibility Evaluation Tool" /></a>
-				</footer>
+            <a href="https://wave.webaim.org/" target="_blank" title="Go to Web Accessibility tool">
+                <img style="border:none;width:88px;height:31px;text-decoration:none;"
+                    src="images/waveWeb.png"
+                    alt="WAVE Web Accessibility Evaluation Tool" /></a>
+           
+           
+            
+        </footer>
 
-		</div>
+</div>
 
 </body>
 
