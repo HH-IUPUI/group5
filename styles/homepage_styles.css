@@ -94,10 +94,20 @@
 
         a:hover {
             background-color: black;
+            color: white;
         }
 
         a:active {
             color: #C0F0FC;
+        }
+
+        #linkInMain {
+            color:  #151269;
+        }
+
+        #linkInMain:hover {
+            background-color: black;
+            color: white;
         }
 
 
