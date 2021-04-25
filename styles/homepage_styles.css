@@ -41,9 +41,10 @@
 
         footer {
             grid-area: footer;
-            background-color: #98B9F2;
+            background-color: #151269;
             padding: 0 1em 0 1em;
             border-top: 2px solid #000000;
+            color:rgb(182, 182, 182);
         }
 
         .grid-container {
