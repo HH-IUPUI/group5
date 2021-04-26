@@ -1,10 +1,12 @@
 // Thanks to w3school for the idea//
 
-//Get the button
+//button
 var topButton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction()
+};
 
 function scrollFunction() {
   if (document.body.scrollTop >= footer || document.documentElement.scrollTop >= footer) {
@@ -19,4 +21,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
