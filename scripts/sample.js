@@ -1,19 +1,3 @@
-/* I can't make it work. Doing something here wrong. 
-So, I am using for now William's example of that function to make menu disappear 
-
-function myFunction() {
-
-	var x = document.getElementById("pull");
-	if (window.matchMedia("(max-width: 600px)").matches) {
-	  x.style.display = "block";
-	} else {
-	  x.style.display = "grid";
-	}
-  }
-
-*/
-
-
 $(function () {
 	var pull = $('#pull');
 	menu = $('nav ul');
@@ -33,3 +17,17 @@ $(function () {
 });
 
 
+/* I can't make it work to be responsive with CSS. Doing something wrong. 
+So, I am using for now William's example of that function to make menu disappear and be a hamburger menu
+
+function myFunction() {
+
+	var x = document.getElementById("pull");
+	if (window.matchMedia("(max-width: 600px)").matches) {
+	  x.style.display = "block";
+	} else {
+	  x.style.display = "grid";
+	}
+  }
+
+*/
