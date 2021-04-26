@@ -10,7 +10,7 @@ header {
     grid-area: header;
     background-color: #306BAC;
     padding: 0 1em 0 1em;
-    /* I gave each area some  padding left and right, bot 0 on top and bottom. Modify how you wish! -- William */
+
 }
 
 nav {
