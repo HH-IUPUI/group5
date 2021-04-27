@@ -61,14 +61,6 @@ footer {
     position: relative;
 }
 
-/* Style for botton Copyright section  */
-.copyrightText {
-   font-size: smaller;
-   text-align: center;
-   font-style: italic;
-   position: relative;
-   
-}
 
 /* Style for grid-container */
 .grid-container {
@@ -215,7 +207,13 @@ th {
     ul li {
         display: inline-block;
     }
-
+    /* Style for botton Copyright section  */
+    .copyrightText {
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
+    color: rgb(15, 15, 15);
+    }
 }
 
 
@@ -274,6 +272,13 @@ th {
     }
 
 
+    /* Style for botton Copyright section  */
+    .copyrightText {
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
+    color:  rgb(243, 231, 231);
+    }
 
     /* Show Hamburger Icon */
     #hamnav label {
