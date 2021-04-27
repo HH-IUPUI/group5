@@ -55,6 +55,12 @@ footer {
     color: rgb(182, 182, 182);
 }
 
+/* Style for button TOP (which is inside the footer container) to be on the right side for user's convenience  */
+.button {
+    float: right;
+    position: relative;
+}
+
 /* Style for grid-container */
 .grid-container {
     display: grid;
