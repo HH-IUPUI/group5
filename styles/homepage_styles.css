@@ -92,6 +92,14 @@ footer {
     border: 0;
 }
 
+/* Style for botton Copyright section  */
+.copyrightText {
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
+    color:  rgb(243, 231, 231);
+}
+
 /* STYLE FOR THE quote on the page Presentation, aside container */
 .quotation {
     font-style: italic;
@@ -207,13 +215,13 @@ th {
     ul li {
         display: inline-block;
     }
-    /* Style for botton Copyright section  */
+    /* Style for botton Copyright section  
     .copyrightText {
     font-size: smaller;
     text-align: center;
     font-style: italic;
     color: rgb(15, 15, 15);
-    }
+    }*/
 }
 
 
@@ -272,13 +280,13 @@ th {
     }
 
 
-    /* Style for botton Copyright section  */
+    /* Style for botton Copyright section  
     .copyrightText {
     font-size: smaller;
     text-align: center;
     font-style: italic;
     color:  rgb(243, 231, 231);
-    }
+    }*/
 
     /* Show Hamburger Icon */
     #hamnav label {
