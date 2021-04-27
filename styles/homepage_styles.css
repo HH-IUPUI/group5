@@ -104,6 +104,8 @@ a:active {
     color: #C0F0FC;
 }
 
+/* This is the formatting for links where there was trouble with the colour contrast with the background. */
+
 #linkInMain {
     color: #151269;
 }
