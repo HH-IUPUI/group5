@@ -11,7 +11,7 @@ h1 {
 /* Style for container Header */
 header {
     grid-area: header;
-    background-color: #3e639e;
+    background-color: #306BAC;
     padding: 0 1em 0 1em;
 
 }
@@ -20,7 +20,7 @@ header {
 /* MENU */
 nav {
     grid-area: nav;
-    background-color: #253a56;
+    background-color: #151269;
     padding: 0 1em 0 1em;
 }
 
@@ -35,21 +35,21 @@ nav a#pull {
 /* Style for container MAIN */
 main {
     grid-area: main;
-    background-color: #dadeff;
+    background-color: #98B9F2;
     padding: 0 1em 0 1em;
 }
 
 /* Style for container ASIDE */
 aside {
     grid-area: aside;
-    background-color: #84b0f3;
+    background-color: #6F9CEB;
     padding: 0 1em 0 1em;
 }
 
 /* Style for container FOOTER */
 footer {
     grid-area: footer;
-    background-color: #253a56;
+    background-color: #151269;
     padding: 0 1em 0 1em;
     border-top: 2px solid #000000;
     color: rgb(182, 182, 182);
@@ -115,7 +115,7 @@ footer {
     color: rgb(243, 231, 231);
 }
 
-/* Style for the quote on the page Presentation, aside container */
+/* STYLE FOR THE quote on the page Presentation, aside container */
 .quotation {
     font-style: italic;
 }
@@ -317,10 +317,15 @@ tr:nth-child(odd) {
         display: block;
     }
 
-    /* William's contribution: Here I turn off the column float --wph */
+    /* Here I turn off the column float --wph */
     .column {
         float: none;
         width: 90%;
+    }
+
+    aside {
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
 }
