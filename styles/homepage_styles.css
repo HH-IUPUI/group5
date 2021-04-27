@@ -1,3 +1,4 @@
+/* Style for fon-family and color of heading 1 */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -6,6 +7,8 @@ h1 {
     color: white;
 }
 
+
+/* Style for container Header */
 header {
     grid-area: header;
     background-color: #306BAC;
@@ -13,6 +16,8 @@ header {
 
 }
 
+
+/* MENU */
 nav {
     grid-area: nav;
     background-color: #151269;
@@ -27,18 +32,21 @@ nav a#pull {
     display: none;
 }
 
+/* Style for container MAIN */
 main {
     grid-area: main;
     background-color: #98B9F2;
     padding: 0 1em 0 1em;
 }
 
+/* Style for container ASIDE */
 aside {
     grid-area: aside;
     background-color: #6F9CEB;
     padding: 0 1em 0 1em;
 }
 
+/* Style for container FOOTER */
 footer {
     grid-area: footer;
     background-color: #151269;
@@ -47,6 +55,7 @@ footer {
     color: rgb(182, 182, 182);
 }
 
+/* Style for grid-container */
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -60,6 +69,7 @@ footer {
     margin: auto;
 }
 
+/* STYLE FOR THE IFRAME ELEMENT */
 .resp-container {
     position: relative;
     overflow: hidden;
@@ -75,6 +85,7 @@ footer {
     border: 0;
 }
 
+/* STYLE FOR THE quote on the page Presentation, aside container */
 .quatation {
     font-style: italic;
 }
@@ -138,9 +149,6 @@ th {
 	background-color: #98b9f2
 }
 			
-
-
-/* MENU */
 
 
 /* Wrapper */
@@ -249,9 +257,6 @@ th {
         right: 15px;
         top: 10px;
     }
-
-
-
 
 
 
