@@ -71,10 +71,25 @@ footer {
         'nav nav main main main aside'
         'nav nav footer footer footer footer';
 
-    max-width: 65em;
-    /* GIVE CONTAINER A WIDTH AND MARGINS IF YOU DO NOT WANT FULL SCREEN */
+    /* max-width: 65em;
+     GIVE CONTAINER A WIDTH AND MARGINS IF YOU DO NOT WANT FULL SCREEN */
     margin: auto;
 }
+
+/* I added these styles to make two "creators" side by side in a wide viewport. --wph */
+
+.column {
+    width: 40%;
+    float: left;
+    padding-left: 2em;
+}
+
+.clearcolumm {
+    clear: left;
+}
+
+
+
 
 /* STYLE FOR THE IFRAME ELEMENT */
 .resp-container {
@@ -97,10 +112,10 @@ footer {
     font-size: smaller;
     text-align: center;
     font-style: italic;
-    color:  rgb(243, 231, 231);
+    color: rgb(243, 231, 231);
 }
 
-/* STYLE FOR THE quote on the page Presentation, aside container */
+/* Style for the quote on the page Presentation, aside container */
 .quotation {
     font-style: italic;
 }
@@ -144,26 +159,26 @@ a.linkInMain:hover {
 /* This is the formatting for table on the page Resources */
 
 table {
-	font-family: arial, sans-serif;
-	border-collapse: collapse;
-	width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 td,
 th {
-	border: 3px solid #151269;
-	text-align: left;
-	padding: 8px;
+    border: 3px solid #151269;
+    text-align: left;
+    padding: 8px;
 }
 
-	tr:nth-child(even) {
-	background-color: #151269;
+tr:nth-child(even) {
+    background-color: #151269;
 }
 
-    tr:nth-child(odd) {
-	background-color: #98b9f2
+tr:nth-child(odd) {
+    background-color: #98b9f2
 }
-			
+
 
 
 /* Wrapper */
@@ -215,7 +230,7 @@ th {
     ul li {
         display: inline-block;
     }
-    
+
 }
 
 
@@ -279,7 +294,7 @@ th {
     #hamnav label {
         display: inline-block;
         color: white;
-        background: #a02620;
+        /* background: #a02620; */
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
@@ -301,4 +316,11 @@ th {
     #hamnav input:checked~#hamitems {
         display: block;
     }
+
+    /* William's contribution: Here I turn off the column float --wph */
+    .column {
+        float: none;
+        width: 90%;
+    }
+
 }
