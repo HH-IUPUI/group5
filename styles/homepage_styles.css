@@ -61,6 +61,13 @@ footer {
     position: relative;
 }
 
+/* Style for botton Copyright section  */
+.copyrightText {
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+}
+
 /* Style for grid-container */
 .grid-container {
     display: grid;
