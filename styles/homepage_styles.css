@@ -79,7 +79,7 @@ footer {
     font-style: italic;
 }
 
-/* Put your link styles here and format this how you wish -- William */
+/* Link styles here */
 
 a {
     color: #fcfcf6;
@@ -114,6 +114,30 @@ a:active {
     background-color: black;
     color: white;
 }
+
+/* This is the formatting for table on the page Resources */
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 3px solid #151269;
+	text-align: left;
+	padding: 8px;
+}
+
+	tr:nth-child(even) {
+	background-color: #151269;
+}
+
+    tr:nth-child(odd) {
+	background-color: #98b9f2
+}
+			
 
 
 /* MENU */
