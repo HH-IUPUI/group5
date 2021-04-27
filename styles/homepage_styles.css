@@ -106,11 +106,11 @@ a:active {
 
 /* This is the formatting for links where there was trouble with the colour contrast with the background. */
 
-#linkInMain {
+a.linkInMain {
     color: #151269;
 }
 
-#linkInMain:hover {
+a.linkInMain:hover {
     background-color: black;
     color: white;
 }
