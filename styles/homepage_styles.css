@@ -67,6 +67,7 @@ footer {
    text-align: center;
    font-style: italic;
    position: absolute;
+   color: rgb(78, 78, 78);
 }
 
 /* Style for grid-container */
