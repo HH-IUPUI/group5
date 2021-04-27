@@ -11,7 +11,7 @@ h1 {
 /* Style for container Header */
 header {
     grid-area: header;
-    background-color: #306BAC;
+    background-color: #3e639e;
     padding: 0 1em 0 1em;
 
 }
@@ -20,7 +20,7 @@ header {
 /* MENU */
 nav {
     grid-area: nav;
-    background-color: #151269;
+    background-color: #253a56;
     padding: 0 1em 0 1em;
 }
 
@@ -35,21 +35,21 @@ nav a#pull {
 /* Style for container MAIN */
 main {
     grid-area: main;
-    background-color: #98B9F2;
+    background-color: #dadeff;
     padding: 0 1em 0 1em;
 }
 
 /* Style for container ASIDE */
 aside {
     grid-area: aside;
-    background-color: #6F9CEB;
+    background-color: #84b0f3;
     padding: 0 1em 0 1em;
 }
 
 /* Style for container FOOTER */
 footer {
     grid-area: footer;
-    background-color: #151269;
+    background-color: #253a56;
     padding: 0 1em 0 1em;
     border-top: 2px solid #000000;
     color: rgb(182, 182, 182);
