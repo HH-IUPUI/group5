@@ -1,153 +1,317 @@
-<!DOCTYPE html>
-<html lang="en">
+/* Style for fon-family and color of heading 1 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>Intercultural Communication in a Global Classroom</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
-  <meta name="author" content="Group Five">
-  <meta name="description"
-    content="Intercultural Communication in Global Classroom: Spring 2021 course project for Information Structure for the Web">
-  <meta name="keywords" content="intercultural communication, global classroom, university collaboration, web design">
-
-  <link rel="stylesheet" type="text/css" href="styles/homepage_styles.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="scripts/sample.js"></script>
+h1 {
+    color: white;
+}
 
 
-</head>
+/* Style for container Header */
+header {
+    grid-area: header;
+    background-color: #306BAC;
+    padding: 0 1em 0 1em;
 
-<body>
-  <div class="grid-container">
-    <header>
-      <h1>Intercultural Communication in a Global Classroom</h1>
-    </header>
-    <nav id="hamnav">
-      <!-- [THE HAMBURGER] free menu from https://code-boxx.com/ -->
-      <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger" />
-
-      <!-- [MENU ITEMS] -->
-      <div id="hamitems">
-        <a href="index.html">Home</a>
-        <a href="connections.html">Connections</a>
-        <a href="resources.html">Resources</a>
-        <a href="#"><b>Creators</b></a>
-        <a href="projectPresentation.html">Presentation</a>
-      </div>
-    </nav>
-    <main>
-      <h2 style="text-align:center">Meet the Creators!</h2>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <img src="images/KatsAvatar.png" alt="Kat" style="width:100%" title="Created with avatarmaker.com">
-            <div class="container">
-              <h2>Kateryna Dieguez</h2>
-              <p>IUPUI Student</p>
-              <p>Kateryna lives in Hammond, Indiana, USA. She will be graduating with her Masters in Library and
-                Information Science (MLIS) degree this spring of 2021. A student by heart, Kateryna pursued this degree
-                to be in a field dedicated to knowledge and information. In her spare time, she likes to paint, read,
-                take walks, play with her dog, spend time with her family and friends, listen to music, and daydream of
-                one day traveling the world.</p>
-              <p><a href="https://www.linkedin.com/in/kateryna-dieguez-42a59a207/" target="_blank"
-                  title="Go to Kateryna's LinkedIn account" class="linkInMain">Kateryna's LinkedIn Account</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <img src="images/MQAvatar.png" alt="Michelle" style="width:100%" title="Created with avatarmaker.com">
-            <div class="container">
-              <h2>Michelle Quirke</h2>
-              <p>IUPUI Student</p>
-              <p>Michelle lives in Carmel, Indiana, USA. She plans to graduate with her MLIS degree in 2022 with a focus
-                in health sciences information. Currently, she works as a Research Operations Manager at Indiana
-                Alzheimer's Disease Research Center. She spends her free time traveling and hiking with her husband Paul
-                and their black Labrador puppy, Gia.</p>
-              <p><a href="https://www.linkedin.com/in/michellequirke/" target="_blank"
-                  title="Go to Michelle's LinkedIn account" class="linkInMain">Michelle's LinkedIn Account</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <img src="images/mariiasAvatar.png" alt="Mariia" style="width:100%" title="Created with avatarmaker.com">
-            <div class="container">
-              <h2>Mariia Solo</h2>
-              <p>Haaga-Helia Student</p>
-              <p>Mariia lives in the Swedish speaking town Porvoo, which is approximately 50km (30mi) from Finland's
-                capital, Helsinki. Mariia is a full-time student and getting her second bachelor's degree in Business
-                Information Technology. After graduation, she sees herself as a web developer. In her spare time, she
-                loves traveling, going outside, and spending time with friends. She cannot imagine her life without her
-                2 adorable French bulldogs. Mariia took part in the global classroom project so that she could learn
-                more about American culture.</p>
-              <p><a href="https://www.linkedin.com/in/mariia-sinodalova-18a044206/" target="_blank"
-                  title="Go to Mariia's LinkedIn account" class="linkInMain">Mariia's LinkedIn Account</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <img src="images/VillesAvatar.png" alt="Ville" style="width:100%" title="Created with avatarmaker.com">
-          <div class="container">
-            <h2>Ville Schenk</h2>
-            <p>Haaga-Helia Student</p>
-            <p>Ville lives in Helsinki and attends Haaga-Helia University of Applied Sciences.
-              He grew up in and around lots of cultures and has many stories to tell.
-              He is intrigued by technology and plans to pursue a career in the field.
-              He is a lifelong learner and is continuously on a lookout for new things.
-              Currently, he is on a quest to find new dinner recipes to add to his repertoire.</p>
-            <p><a href="https://www.linkedin.com/in/robert-ville-schenk-390858206/" target="_blank"
-                title="Go to Ville's LinkedIn account" class="linkInMain">Ville's LinkedIn Account</a></p>
-          </div>
-        </div>
-      </div>
+}
 
 
-    </main>
-    <aside>
-      <h2>Behind the curtains!</h2>
-      <p>The creators of this website on Intercultural Communication in a Global Classroom are a combination of two
-        students from IUPUI in the United States and two students from Haaga-Helia in Finland. Though in different
-        locations and different time zones, these students were able to communicate and collaborate their times to work
-        together to create this website.</p>
-      <p> Note: The views, opinions, and information provided on this website concerning Intercultural Communication are
-        those provided by the creators of the website themselves. These creators are not professionals or experts on the
-        topic of Intercultural Communication.</p>
-    </aside>
-    <footer>
-      <button onclick="topFunction()" id="myBtn" class = "button" title="Go to top">Top</button>
-      <script src="scripts/scrollDownUp.js"></script>
+/* MENU */
+nav {
+    grid-area: nav;
+    background-color: #151269;
+    padding: 0 1em 0 1em;
+}
 
-      <p>Thanks to our teachers Dr. William Helling (<a href="https://www.linkedin.com/in/whelling/" target="_blank"
-          title="Go to William's LinkedIn account">William's LinkedIn account</a>)
-        from <a href="https://www.iupui.edu/" target="_blank" title="Go to IUPUI web page">IUPUI</a>
-        and Kasper Valtakari (<a href="https://www.linkedin.com/in/kassu/" target="_blank"
-          title="Go to Kasper's LinkedIn account">Kasper's LinkedIn account</a>)
-        from <a href="https://www.haaga-helia.fi/en" target="_blank" title="Go to Haaga-Helia UAS web page">HHUAS</a>,
-        as well as <a href="https://www.w3schools.com/js/default.asp" target="_blank"
-          title="Go to W3schhol web page">w3school</a></p> <br />
+nav.ul {
+    text-align: center;
+}
 
-      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhh-iupui.github.io%2Fgroup5%2Fcreators.html" target="_blank" title="Go to HTML validator">
-        <img style="border:none;width:60px;height:31px;text-decoration:none;" src="images/htmlValidator.png"
-          alt="Valid HTML" /></a>
+nav a#pull {
+    display: none;
+}
 
-      <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhh-iupui.github.io%2Fgroup5%2Fcreators.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
-         target="_blank" title="Go to Css validator"><img style="border:none;width:88px;height:31px;text-decoration:none;" src="images/validCSS.png"
-          alt="Valid CSS" /></a>
+/* Style for container MAIN */
+main {
+    grid-area: main;
+    background-color: #98B9F2;
+    padding: 0 1em 0 1em;
+}
 
-      <a href="https://wave.webaim.org/report#/https://hh-iupui.github.io/group5/creators.html" target="_blank" title="Go to Web Accessibility tool">
-        <img style="border:none;width:88px;height:31px;text-decoration:none;" src="images/waveWeb.png"
-          alt="WAVE Web Accessibility Evaluation Tool" /></a>
+/* Style for container ASIDE */
+aside {
+    grid-area: aside;
+    background-color: #6F9CEB;
+    padding: 0 1em 0 1em;
+}
+
+/* Style for container FOOTER */
+footer {
+    grid-area: footer;
+    background-color: #151269;
+    padding: 0 1em 0 1em;
+    border-top: 2px solid #000000;
+    color: rgb(182, 182, 182);
+}
+
+/* Style for button TOP (which is inside the footer container) to be on the right side for user's convenience  */
+.button {
+    float: right;
+    position: relative;
+}
 
 
-      <p class="copyrightText"><small>&copy; 2021. IUPUI & HH collaboration: Kateryna Dieguez &#9829; Mariia Solo &#9829; Michelle Quirke &#9829;  Ville Schenk </small></p>
+/* Style for grid-container */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'nav nav main main main aside'
+        'nav nav main main main aside'
+        'nav nav footer footer footer footer';
 
-    </footer>
-  </div>
-</body>
+   /* max-width: 65em;
+     GIVE CONTAINER A WIDTH AND MARGINS IF YOU DO NOT WANT FULL SCREEN */
+    margin: auto;
+}
 
-</html>
+/* I added these styles to make two "creators" side by side in a wide viewport. --wph */ 
+
+.column {width: 40%; float: left; padding-left: 2em;}
+
+.clearcolumm {clear: left;}
+
+
+
+
+/* STYLE FOR THE IFRAME ELEMENT */
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Style for Copyright section  */
+.copyrightText {
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
+    color:  rgb(243, 231, 231);
+}
+
+/* Style for the quote on the page Presentation, aside container */
+.quotation {
+    font-style: italic;
+}
+
+/* Link styles here */
+
+a {
+    color: #fcfcf6;
+    text-decoration: none;
+}
+
+a:link {
+    color: #Ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    color: #C0F0FC;
+}
+
+/* This is the formatting for links where there was trouble with the colour contrast with the background. */
+
+a.linkInMain {
+    color: #151269;
+}
+
+a.linkInMain:hover {
+    background-color: black;
+    color: white;
+}
+
+/* This is the formatting for table on the page Resources */
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 3px solid #151269;
+	text-align: left;
+	padding: 8px;
+}
+
+	tr:nth-child(even) {
+	background-color: #151269;
+}
+
+    tr:nth-child(odd) {
+	background-color: #98b9f2
+}
+			
+
+
+/* Wrapper */
+#hamnav {
+    position: sticky;
+    top: 0;
+}
+
+/* Hide Hamburger */
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+/* Horizontal Menu Items */
+
+/* #hamitems { display: flex; } */
+#hamitems a {
+    /* width: 20%;*/
+    /* 100% / 5 tabs = 20% */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+#hamitems a:hover {
+    background: #401408;
+}
+
+
+
+/*FIRST BREAK POINT === tablet */
+@media only screen and (max-width : 1100px) {
+    body {
+        background: rgb(150, 150, 212);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header header header header header'
+            'nav nav main main main main'
+            'nav nav aside aside aside aside'
+            'nav nav footer footer footer footer';
+    }
+
+    ul li {
+        display: inline-block;
+    }
+    
+}
+
+
+
+
+
+/*SECOND BREAK POINT === mobile */
+@media only screen and (max-width : 600px) {
+
+    body {
+        background: rgb(99, 78, 99);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'nav nav nav nav nav nav'
+            'header header header header header header'
+            'main main main main main main'
+            'aside aside aside aside aside aside'
+            'footer footer footer footer footer footer';
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: none;
+        height: auto;
+    }
+
+    .menuIcon {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    nav a#pull {
+        display: block;
+        /*background-color: #c095ab;*/
+        width: 100%;
+        position: relative;
+    }
+
+    nav a#pull:after {
+        content: "";
+        /* background: url('mobile_nav.jpg') no-repeat; */
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+
+
+    /* Show Hamburger Icon */
+    #hamnav label {
+        display: inline-block;
+        color: white;
+        /* background: #a02620; */
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    /* Break down menu items into vertical */
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+
+    /* Toggle Show/Hide Menu */
+    #hamitems {
+        display: none;
+    }
+
+    #hamnav input:checked~#hamitems {
+        display: block;
+    }
+	
+/* William's contribution: Here I turn off the column float --wph */
+.column {float: none; width: 90%;}
+	
+}
