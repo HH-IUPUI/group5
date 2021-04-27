@@ -65,7 +65,7 @@ footer {
 .copyrightText {
     text-align: center;
     font-style: italic;
-    
+    position:relative;
 }
 
 /* Style for grid-container */
